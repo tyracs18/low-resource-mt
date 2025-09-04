@@ -35,5 +35,3 @@ We evaluate with BLEURT, SacreBLEU, and ChrF on FLoRes-200 dev/devtest splits (p
 2. Direct NLLB: Run cs7650_NLLB.ipynb to generate predictions + metrics.
 3. Pivoting (paper): Chain NLLB (ne→en, en→sin), compare w/ and w/o fine-tuning.
 4. ICL (paper): Prompt an LLM (zero/3-shot) and evaluate with the same metrics.
-5. Pivoting (paper): Chain NLLB (ne→en, en→sin), compare w/ and w/o fine-tuning.
-6. ICL (paper): Prompt an LLM (zero/3-shot) and evaluate with the same metrics.
