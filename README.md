@@ -1,4 +1,4 @@
-In-Context Learning vs. Pivot-Based Translation for Low-Resource MT
+# In-Context Learning vs. Pivot-Based Translation for Low-Resource MT
 
 #### Overview
 This project compares three strategies for low-resource machine translation (MT) on the Nepali ↔ Sinhala pair:
