@@ -7,7 +7,8 @@ This project compares three strategies for low-resource machine translation (MT)
 3. In-Context Learning (ICL) using an instruction-tuned LLM (few-shot prompting)
 
 We evaluate with BLEURT, SacreBLEU, and ChrF on FLoRes-200 dev/devtest splits (plus WMT21 WikiTitles v3 for pivot fine-tuning experiments in the paper).
-#### Key finding: Direct NLLB performs reasonably well for this true low-resource pair; pivoting + light fine-tuning improves scores further. ICL (zero/3-shot) shows gains with examples but lags supervised approaches for Nepali–Sinhala in our setup.
+#### Key finding:
+Direct NLLB performs reasonably well for this true low-resource pair; pivoting + light fine-tuning improves scores further. ICL (zero/3-shot) shows gains with examples but lags supervised approaches for Nepali–Sinhala in our setup.
 
 #### Repository Contents
 - CS7650_final_report_v1.pdf        # Full write-up (methods, experiments, results)
